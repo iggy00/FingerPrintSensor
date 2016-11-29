@@ -1,5 +1,6 @@
 # FingerPrintSensor
 
-for the ino code you can use the "good ino" or use the other example ino codes which are seperate
-<br> 
-Particle needs a .CPP and .H file as well
+Use enroll ino to add fingerprints<br>
+Use Id ino to identify your already enrolled fingerprints<br>
+USe the blink ino for testing<br>
+All ino files needs the .CPP and .H file as well<br> 
