@@ -38,6 +38,10 @@ void loop()
 		{
 			Serial.print("Verified ID:");
 			Serial.println(id);
+			
+			
+		//	Particle.publish("FPS", String(id), null, PRIVATE);
+		Particle.publish("FPS", String(id), 60, PRIVATE);  
 		}
 		else
 		{
